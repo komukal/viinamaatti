@@ -1,0 +1,84 @@
+{
+  "drinks": [
+    {
+      "name": "Rum Sour",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Vodka Sour",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Gin Sour",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "White Lady",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Cosmopolitan",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Kamikaze",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "French 75",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Vodka Sour",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Gin Sour",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "White Lady",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Cosmopolitan",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "Kamikaze",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "French 75",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    },
+    {
+      "name": "French 75",
+      "recipe": "wasd",
+      "imagePath": "imagePath"
+    }
+  ]
+}

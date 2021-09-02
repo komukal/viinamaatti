@@ -1,0 +1,67 @@
+html, body, ul{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: sans-serif;
+}
+#drink-list{
+  list-style: none;
+  height: 90vh;
+  overflow:hidden;
+  display: flex;
+  flex-wrap:wrap;
+}
+#drink-list .page{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+#scroll-wrapper{
+  overflow: hidden;
+  height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+}
+#drink-list li{
+  display: block;
+  height: 45vh;
+  width: 33.3%;
+  background-image: url("./placeholder.svg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page-controll{
+  height: 10vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.page-controll{
+  background-color: #282828;
+  color: #fff;
+}
+.page-controll button{
+  margin: 3vh 0;
+  font-size: 1.5em;
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+}
+button.button-inactive{
+  pointer-events: none;
+  opacity: 0;
+}
+.page-controll p{
+  font-size: 2em;
+  margin: 3vh;
+  line-height: 4vh;
+  vertical-align: middle;
+
+}
