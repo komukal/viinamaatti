@@ -9,21 +9,20 @@ body{
 #drink-list{
   list-style: none;
   height: 90vh;
-  overflow-x:scroll;
+  overflow:hidden;
   display: flex;
   flex-wrap:wrap;
 }
 #drink-list .page{
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  float:left;
+  align-content: flex-start;
 }
 #scroll-wrapper{
   overflow: hidden;
-  overflow-x:scroll;
   height: 90vh;
   width: 100%;
   margin: 0 auto;
@@ -56,7 +55,8 @@ body{
   color: inherit;
 }
 button.button-inactive{
-  color: #282828;
+  pointer-events: none;
+  opacity: 0;
 }
 .page-controll p{
   font-size: 2em;
